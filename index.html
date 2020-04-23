@@ -1,23 +1,20 @@
 <style>
-    /*Use the image at the following url as the webpage background image*/
     body {
-      background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+      background-image: radial-gradient(rgb(153, 75, 39),rgb(219, 156, 117));
   }
   
-  /*Use a gradient between two colors for the header background*/
   header {
-    background: linear-gradient(120deg,hsl(39, 93%, 42%),rgb(80, 2, 2));
-    color: #FFFFFF;
+    background: rgba(66, 142, 219, 0.74);
+    color: rgb(218, 213, 214);
   }
 
-    /*set links to the default text color and don't do anything when you hover over them*/
     a {
       text-decoration: none;
       color: inherit;
     }
 
   nav {
-    background:linear-gradient(120deg,hsl(39, 93%, 42%),rgb(80, 2, 2));
+    color: rgb(218, 213, 214);
   }
 
   h1 {
@@ -27,7 +24,7 @@
 
   nav ul {
     margin: 0px;
-    padding: 5px 0px 5px 30px;
+    padding: 5px 0px 5px 10px;
   }
 
   /*display navigation list items in one line rather than on separate lines*/
@@ -38,29 +35,38 @@
 
   article{
     margin: 10px;
-    background: hsla(39, 93%, 42%, 0.521);
+    background: rgba(207, 170, 128, 0.836);
   }
+
+  footer{
+    text-align: center;
+    color:white;
+    font-size: 11;
+    font-style:italic;
+  }
+
   </style>
 
 <body>
     <header>
         <h1>
-            Blog Name
+          Blog Name
         </h1>
+
         <nav>
           <ul>
+            <li><b>Home</b></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">New Readers</a></li>
           </ul>
         </nav>
     </header>
 
     <article>
-        <h2>Article 1</h2>
+        <h2>Article 3</h2>
         <section>
             <h3>Topic 1</h3>
-            <p>Text</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
     </article>
 
@@ -68,8 +74,20 @@
         <h2>Article 2</h2>
         <section>
             <h3>Topic 1</h3>
-            <p>Text</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
     </article>
 
+    <article>
+      <h2>Article 1</h2>
+      <section>
+          <h3>Topic 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+  </article>
+
 </body>
+
+<footer>
+  Authored by James Heaton
+</footer>
