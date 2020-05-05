@@ -1,15 +1,37 @@
 <style>
-  body {
+
+
+article{
+  background: rgb(223, 212, 193);
+  color:rgb(88, 88, 88);
+
+  margin: 5px 10px 5px 10px;
+  max-width: 1000px;
+  padding: 2px 5px 2px 10px;
+  width:100%;
+  box-sizing:border-box; /*Include the padding and margin in the total width*/
+}
+
+body {
+    display:flex;
+    flex-direction:column;
     background: rgb(190, 104, 54);
+    align-items: center;
 }
 
 header {
   background: rgb(223, 212, 193);
-  color:rgb(88, 88, 88)
+  color:rgb(88, 88, 88);
+
+  margin: 5px 10px 5px 10px;
+  max-width: 1000px;
+  padding: 2px 5px 2px 10px;
+  width:100%;
+  box-sizing:border-box; /*Include the padding and margin in the total width*/
 }
 
 nav {
-  color: rgb(88, 88, 88)
+  color: rgb(88, 88, 88);
 }
 
   a {
@@ -37,12 +59,6 @@ nav li {
   margin-right: 20px;
 }
 
-article{
-  margin: 10px;
-  background: rgb(223, 212, 193);
-  color:rgb(88, 88, 88)
-}
-
 footer{
   text-align: center;
   color:white;
@@ -59,6 +75,7 @@ footer{
         </h1>
 
         <nav>
+          <div id="header-span"></div>
           <ul>
             <li><b>Blog</b></li>
             <li><a href="projects.html" class=header-links>Projects</a></li>
@@ -68,16 +85,31 @@ footer{
         </nav>
     </header>
 
-    <!--
       <article>
-        <h2>Article 3</h2>
-        <h3>Date</h3>
+        <h2>Future Aspirations and Blog Revamp</h2>
+        <h3>May 5, 2020</h3>
         <section>
-            <h4>Topic 1</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-    </article>
-    -->
+            <h4>Course Update</h4>
+            <p>I'm about to start the final HTML/CSS project on Free Code Camp. I've noticed that as I progress through these I'm spending less time searching for basic syntax and more time building and planning my sites. If that isn't the sign of a well-build course then what is?</p>
+            <p>I've also began to be able to "see into the Matrix" of basic websites and I feel like I have a good idea of how I could make a similar site. It is exciting to look at professional webpages and to think "hey, I could do that." Or in some cases "I could probably do that better!"</p>
+          </section>
+
+          <section>
+            <h4>Future Aspirations</h4>
+            <p>A little manic part of my brain is pulling at me every time I complete a project saying "Hey! You could make this your job!" And in some ways I think it might be right. I see poorly-designed websites (Example 1, Example 2) and I would feel pretty comfortable reaching out to the owners and offering to build a better one.</p>
+            <p>I want to see if I can turn this into a side business. I think reaching-out to connections with small businesses may be a good way to start. </p>
+          </section>
+
+          <section>
+            <h4>Blog Revamp</h4>
+            <p>In the more immediate future, I'm going to work on applying what I have learned from my recent projects to this blog. I know I can make it look better and improve the accessability.</p>
+          </section>
+
+          <section>
+            <h4>SEO Test</h4>
+            <p>And finally, I'm going to run a small test. I want to know when my blog gets indexed by Google (and other search engines) so I'm going to create a new word and see whether I can look-up this blog based on that word. Here I go: jamesgithubblog.</p>
+          </section>
+        </article>
 
     <article>
         <h2>First Website Complete</h2>
